@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th, td {
+    padding: 5px;
+}
+
+h1 {
+    color: gray;
+}
+
+.main {
+    color: white;
+    background: brown;
+    width: 500px;
+    padding: 10px;
+    border-radius: 6px;
+
+    & h2 {
+        border: 1px solid white;
+        padding: 5px;
+    }
+
+    & h4 {
+        border: 1px solid white;
+        padding: 5px;
+    }
+}
