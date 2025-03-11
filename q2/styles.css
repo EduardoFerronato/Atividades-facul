@@ -1,0 +1,26 @@
+* {
+    background-color: #2f2f2f;
+}
+
+.main {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 5px;
+}
+
+.container {
+    font-size: larger;
+    color: white;
+    background: grey;
+    border-radius: 6px;
+    padding: 5px;
+    margin: auto;
+
+    & p {
+        background-color: gray;
+    }
+}
